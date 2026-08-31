@@ -1,0 +1,9 @@
+{
+  "name": "BusLink 24",
+  "short_name": "BusLink24",
+  "description": "24-Hour Intercity Parcel Delivery Powered by Buses",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e11d48"
+}
