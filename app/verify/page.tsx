@@ -304,7 +304,7 @@ export default function DeliveryVerificationPage() {
                 </div>
                 <div>
                   <span className="text-slate-400 block text-[10px]">Security Clearance</span>
-                  <strong className="text-emerald-700 font-bold">OTP-482917 Matched</strong>
+                  <strong className="text-emerald-700 font-bold">OTP-{activeDelivery.otp} Matched</strong>
                 </div>
               </div>
             </div>

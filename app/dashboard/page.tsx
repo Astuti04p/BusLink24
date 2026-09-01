@@ -171,7 +171,7 @@ export default function UserDashboardPage() {
               className="bg-navy-800 hover:bg-navy-700 text-slate-200 font-bold px-6 py-3.5 rounded-2xl border border-navy-700 transition-colors text-xs flex items-center justify-center gap-1.5"
             >
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>Verify & Collect (OTP 482917)</span>
+              <span>Verify &amp; Collect (OTP {activeDelivery.otp})</span>
             </button>
           </div>
 
