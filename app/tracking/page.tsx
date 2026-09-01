@@ -195,12 +195,12 @@ export default function TrackingPage() {
               </div>
               <div className="flex items-center justify-between pt-1">
                 <span className="text-2xl font-black font-mono text-emerald-800 tracking-widest">
-                  482917
+                  {activeDelivery.otp}
                 </span>
                 <button
                   type="button"
                   onClick={() => {
-                    navigator.clipboard?.writeText('482917');
+                    navigator.clipboard?.writeText(activeDelivery.otp);
                     setCopiedOtp(true);
                     setTimeout(() => setCopiedOtp(false), 2000);
                   }}
